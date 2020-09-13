@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 16 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\moustafa\AppData\Local\Temp\testng-eclipse--1840159958\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 16 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, abdjdflsfjea, moustafa.k.aly109@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, abdjdflsfjea, moustafa.k.aly109@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 0100710025, moustafa.k.aly112@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 0100710025, moustafa.k.aly112@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(null, null, null, null, null, null)">signUpRegister(null, null, null, null, null, null)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly*, 01007100250, moustafa.k.aly106@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly*, 01007100250, moustafa.k.aly106@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa1, Aly, 01007100247, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa1, Aly, 01007100247, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100267, moustafa.k.aly121@gmail.com, AbcdefgDK, AbcdefgDK)">signUpRegister(Moustafa, Aly, 01007100267, moustafa.k.aly121@gmail.com, AbcdefgDK, AbcdefgDK)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(moustafa, Aly, 01007100244, moustadfa.k.aly101@gmail.com, Mk12345, Mk12345)">signUpRegister(moustafa, Aly, 01007100244, moustadfa.k.aly101@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007a00255, moustafa.k.aly111@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007a00255, moustafa.k.aly111@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Moustafa, 01007100252, moustafa.k.aly108@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Moustafa, 01007100252, moustafa.k.aly108@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100265, moustafa.k.aly119@gmail.com, abcdefg, abcdefg)">signUpRegister(Moustafa, Aly, 01007100265, moustafa.k.aly119@gmail.com, abcdefg, abcdefg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 010071002578, moustafa.k.aly113@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 010071002578, moustafa.k.aly113@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa@, Aly, 01007100246, moustafa.k.aly103@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa@, Aly, 01007100246, moustafa.k.aly103@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100266, moustafa.k.aly120@gmail.com, ABCDEFH, ABCDEFH)">signUpRegister(Moustafa, Aly, 01007100266, moustafa.k.aly120@gmail.com, ABCDEFH, ABCDEFH)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly1, 01007100251, moustafa.k.aly107@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly1, 01007100251, moustafa.k.aly107@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100263, moustafa.k.aly118@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007100263, moustafa.k.aly118@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 0100710025&amp;, moustafa.k.aly110@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 0100710025&, moustafa.k.aly110@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100259, moustafa.k.aly115gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007100259, moustafa.k.aly115gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100261, @gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007100261, @gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100270, moustafa.k.aly124@gmail.com, Abcdefg, )">signUpRegister(Moustafa, Aly, 01007100270, moustafa.k.aly124@gmail.com, Abcdefg, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, , moustafa.k.aly114@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, , moustafa.k.aly114@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, , 01007100249, moustafa.k.aly105@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, , 01007100249, moustafa.k.aly105@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(, Aly, 01007100245, moustafa.k.aly102@gmail.com, Mk12345, Mk12345)">signUpRegister(, Aly, 01007100245, moustafa.k.aly102@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100260, moustafa.k.aly116@, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007100260, moustafa.k.aly116@, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafz, Aly, 01007100243, moustafa.k.aaly100@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafz, Aly, 01007100243, moustafa.k.aaly100@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100271, moustafa.k.aly125@gmail.com, Abcde, Abcde)">signUpRegister(Moustafa, Aly, 01007100271, moustafa.k.aly125@gmail.com, Abcde, Abcde)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100269, moustafa.k.aly123@gmail.com, , Abcdefg)">signUpRegister(Moustafa, Aly, 01007100269, moustafa.k.aly123@gmail.com, , Abcdefg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100268, moustafa.k.aly122@gmail.com, Abcdefg, Abpgpgre)">signUpRegister(Moustafa, Aly, 01007100268, moustafa.k.aly122@gmail.com, Abcdefg, Abpgpgre)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, aly, 01007100248, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)">signUpRegister(Moustafa, aly, 01007100248, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100262, moustafa.k.aly117, Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007100262, moustafa.k.aly117, Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="TestNG.TestNGClass" hash-for-method="signUpRegister(Moustafa, Aly, 01007100264, , Mk12345, Mk12345)">signUpRegister(Moustafa, Aly, 01007100264, , Mk12345, Mk12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">TestNG.TestNGClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, abdjdflsfjea, moustafa.k.aly109@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, abdjdflsfjea, moustafa.k.aly109@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, abdjdflsfjea, moustafa.k.aly109@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 0100710025, moustafa.k.aly112@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 0100710025, moustafa.k.aly112@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 0100710025, moustafa.k.aly112@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(null, null, null, null, null, null)">
+                  </a> <!-- signUpRegister(null, null, null, null, null, null) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(null, null, null, null, null, null)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly*, 01007100250, moustafa.k.aly106@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly*, 01007100250, moustafa.k.aly106@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly*, 01007100250, moustafa.k.aly106@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa1, Aly, 01007100247, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa1, Aly, 01007100247, moustafa.k.aly104@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa1, Aly, 01007100247, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100267, moustafa.k.aly121@gmail.com, AbcdefgDK, AbcdefgDK)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100267, moustafa.k.aly121@gmail.com, AbcdefgDK, AbcdefgDK) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100267, moustafa.k.aly121@gmail.com, AbcdefgDK, AbcdefgDK)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(moustafa, Aly, 01007100244, moustadfa.k.aly101@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(moustafa, Aly, 01007100244, moustadfa.k.aly101@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(moustafa, Aly, 01007100244, moustadfa.k.aly101@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007a00255, moustafa.k.aly111@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007a00255, moustafa.k.aly111@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007a00255, moustafa.k.aly111@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Moustafa, 01007100252, moustafa.k.aly108@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Moustafa, 01007100252, moustafa.k.aly108@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Moustafa, 01007100252, moustafa.k.aly108@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100265, moustafa.k.aly119@gmail.com, abcdefg, abcdefg)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100265, moustafa.k.aly119@gmail.com, abcdefg, abcdefg) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100265, moustafa.k.aly119@gmail.com, abcdefg, abcdefg)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 010071002578, moustafa.k.aly113@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 010071002578, moustafa.k.aly113@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 010071002578, moustafa.k.aly113@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa@, Aly, 01007100246, moustafa.k.aly103@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa@, Aly, 01007100246, moustafa.k.aly103@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa@, Aly, 01007100246, moustafa.k.aly103@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100266, moustafa.k.aly120@gmail.com, ABCDEFH, ABCDEFH)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100266, moustafa.k.aly120@gmail.com, ABCDEFH, ABCDEFH) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100266, moustafa.k.aly120@gmail.com, ABCDEFH, ABCDEFH)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly1, 01007100251, moustafa.k.aly107@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly1, 01007100251, moustafa.k.aly107@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly1, 01007100251, moustafa.k.aly107@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100263, moustafa.k.aly118@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100263, moustafa.k.aly118@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100263, moustafa.k.aly118@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 0100710025&amp;, moustafa.k.aly110@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 0100710025&, moustafa.k.aly110@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 0100710025&, moustafa.k.aly110@gmail.com, Mk12345, Mk12345)</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at TestNG.TestNGClass.signUpRegister(TestNGClass.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestNG.TestNGClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100259, moustafa.k.aly115gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100259, moustafa.k.aly115gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100259, moustafa.k.aly115gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100261, @gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100261, @gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100261, @gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100270, moustafa.k.aly124@gmail.com, Abcdefg, )">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100270, moustafa.k.aly124@gmail.com, Abcdefg, ) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100270, moustafa.k.aly124@gmail.com, Abcdefg, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, , moustafa.k.aly114@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, , moustafa.k.aly114@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, , moustafa.k.aly114@gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, , 01007100249, moustafa.k.aly105@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, , 01007100249, moustafa.k.aly105@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, , 01007100249, moustafa.k.aly105@gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(, Aly, 01007100245, moustafa.k.aly102@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(, Aly, 01007100245, moustafa.k.aly102@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(, Aly, 01007100245, moustafa.k.aly102@gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100260, moustafa.k.aly116@, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100260, moustafa.k.aly116@, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100260, moustafa.k.aly116@, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafz, Aly, 01007100243, moustafa.k.aaly100@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafz, Aly, 01007100243, moustafa.k.aaly100@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafz, Aly, 01007100243, moustafa.k.aaly100@gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100271, moustafa.k.aly125@gmail.com, Abcde, Abcde)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100271, moustafa.k.aly125@gmail.com, Abcde, Abcde) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100271, moustafa.k.aly125@gmail.com, Abcde, Abcde)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100269, moustafa.k.aly123@gmail.com, , Abcdefg)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100269, moustafa.k.aly123@gmail.com, , Abcdefg) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100269, moustafa.k.aly123@gmail.com, , Abcdefg)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100268, moustafa.k.aly122@gmail.com, Abcdefg, Abpgpgre)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100268, moustafa.k.aly122@gmail.com, Abcdefg, Abpgpgre) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100268, moustafa.k.aly122@gmail.com, Abcdefg, Abpgpgre)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, aly, 01007100248, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, aly, 01007100248, moustafa.k.aly104@gmail.com, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, aly, 01007100248, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100262, moustafa.k.aly117, Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100262, moustafa.k.aly117, Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100262, moustafa.k.aly117, Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signUpRegister(Moustafa, Aly, 01007100264, , Mk12345, Mk12345)">
+                  </a> <!-- signUpRegister(Moustafa, Aly, 01007100264, , Mk12345, Mk12345) -->
+                  <span class="method-name">signUpRegister</span>
+                  <span class="parameters">(Moustafa, Aly, 01007100264, , Mk12345, Mk12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\moustafa\AppData\Local\Temp\testng-eclipse--1840159958\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNG.TestNGClass&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'signUpRegister')
+data.setCell(0, 2, 'TestNG.TestNGClass')
+data.setCell(0, 3, 29998);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'signUpRegister')
+data.setCell(1, 2, 'TestNG.TestNGClass')
+data.setCell(1, 3, 18054);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signUpRegister')
+data.setCell(2, 2, 'TestNG.TestNGClass')
+data.setCell(2, 3, 17780);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'signUpRegister')
+data.setCell(3, 2, 'TestNG.TestNGClass')
+data.setCell(3, 3, 17601);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'signUpRegister')
+data.setCell(4, 2, 'TestNG.TestNGClass')
+data.setCell(4, 3, 17578);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'signUpRegister')
+data.setCell(5, 2, 'TestNG.TestNGClass')
+data.setCell(5, 3, 17510);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'signUpRegister')
+data.setCell(6, 2, 'TestNG.TestNGClass')
+data.setCell(6, 3, 17437);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'signUpRegister')
+data.setCell(7, 2, 'TestNG.TestNGClass')
+data.setCell(7, 3, 17363);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'signUpRegister')
+data.setCell(8, 2, 'TestNG.TestNGClass')
+data.setCell(8, 3, 17359);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'signUpRegister')
+data.setCell(9, 2, 'TestNG.TestNGClass')
+data.setCell(9, 3, 17268);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'signUpRegister')
+data.setCell(10, 2, 'TestNG.TestNGClass')
+data.setCell(10, 3, 17256);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'signUpRegister')
+data.setCell(11, 2, 'TestNG.TestNGClass')
+data.setCell(11, 3, 17189);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'signUpRegister')
+data.setCell(12, 2, 'TestNG.TestNGClass')
+data.setCell(12, 3, 17086);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'signUpRegister')
+data.setCell(13, 2, 'TestNG.TestNGClass')
+data.setCell(13, 3, 16970);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'signUpRegister')
+data.setCell(14, 2, 'TestNG.TestNGClass')
+data.setCell(14, 3, 16898);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'signUpRegister')
+data.setCell(15, 2, 'TestNG.TestNGClass')
+data.setCell(15, 3, 14885);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'signUpRegister')
+data.setCell(16, 2, 'TestNG.TestNGClass')
+data.setCell(16, 3, 13764);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'signUpRegister')
+data.setCell(17, 2, 'TestNG.TestNGClass')
+data.setCell(17, 3, 13696);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'signUpRegister')
+data.setCell(18, 2, 'TestNG.TestNGClass')
+data.setCell(18, 3, 13695);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'signUpRegister')
+data.setCell(19, 2, 'TestNG.TestNGClass')
+data.setCell(19, 3, 13516);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'signUpRegister')
+data.setCell(20, 2, 'TestNG.TestNGClass')
+data.setCell(20, 3, 13291);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'signUpRegister')
+data.setCell(21, 2, 'TestNG.TestNGClass')
+data.setCell(21, 3, 13007);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'signUpRegister')
+data.setCell(22, 2, 'TestNG.TestNGClass')
+data.setCell(22, 3, 12988);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'signUpRegister')
+data.setCell(23, 2, 'TestNG.TestNGClass')
+data.setCell(23, 3, 12968);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'signUpRegister')
+data.setCell(24, 2, 'TestNG.TestNGClass')
+data.setCell(24, 3, 12962);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'signUpRegister')
+data.setCell(25, 2, 'TestNG.TestNGClass')
+data.setCell(25, 3, 12932);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'signUpRegister')
+data.setCell(26, 2, 'TestNG.TestNGClass')
+data.setCell(26, 3, 12562);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'signUpRegister')
+data.setCell(27, 2, 'TestNG.TestNGClass')
+data.setCell(27, 3, 12522);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'signUpRegister')
+data.setCell(28, 2, 'TestNG.TestNGClass')
+data.setCell(28, 3, 12423);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'signUpRegister')
+data.setCell(29, 2, 'TestNG.TestNGClass')
+data.setCell(29, 3, 12104);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestNG.TestNGClass</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafz, Aly, 01007100243, moustafa.k.aaly100@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">30132 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(moustafa, Aly, 01007100244, moustadfa.k.aly101@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">30153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">43162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(, Aly, 01007100245, moustafa.k.aly102@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">43163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">60431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa@, Aly, 01007100246, moustafa.k.aly103@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">60432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">73724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa1, Aly, 01007100247, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">73725 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">87422 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, aly, 01007100248, moustafa.k.aly104@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">87422 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">105202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, , 01007100249, moustafa.k.aly105@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">105203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">122102 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly*, 01007100250, moustafa.k.aly106@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">122102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">134625 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly1, 01007100251, moustafa.k.aly107@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">134625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">147588 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Moustafa, 01007100252, moustafa.k.aly108@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">147588 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">162474 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, abdjdflsfjea, moustafa.k.aly109@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">162476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">174581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 0100710025&, moustafa.k.aly110@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">174581 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">188347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007a00255, moustafa.k.aly111@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">188347 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">201336 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 0100710025, moustafa.k.aly112@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">201337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">213900 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 010071002578, moustafa.k.aly113@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">213900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">227417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, , moustafa.k.aly114@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">227417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">244855 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100259, moustafa.k.aly115gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">244856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">262215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100260, moustafa.k.aly116@, Mk12345, Mk12345)</span>
+                <span class="method-start">262215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">279302 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100261, @gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">279303 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">296904 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100262, moustafa.k.aly117, Mk12345, Mk12345)</span>
+                <span class="method-start">296905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">314483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100263, moustafa.k.aly118@gmail.com, Mk12345, Mk12345)</span>
+                <span class="method-start">314484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">327416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100264, , Mk12345, Mk12345)</span>
+                <span class="method-start">327416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">345470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100265, moustafa.k.aly119@gmail.com, abcdefg, abcdefg)</span>
+                <span class="method-start">345471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">358440 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100266, moustafa.k.aly120@gmail.com, ABCDEFH, ABCDEFH)</span>
+                <span class="method-start">358440 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">370863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100267, moustafa.k.aly121@gmail.com, AbcdefgDK, AbcdefgDK)</span>
+                <span class="method-start">370863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">384558 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100268, moustafa.k.aly122@gmail.com, Abcdefg, Abpgpgre)</span>
+                <span class="method-start">384559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">402070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100269, moustafa.k.aly123@gmail.com, , Abcdefg)</span>
+                <span class="method-start">402070 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">419259 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100270, moustafa.k.aly124@gmail.com, Abcdefg, )</span>
+                <span class="method-start">419260 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">436231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">signUpRegister(Moustafa, Aly, 01007100271, moustafa.k.aly125@gmail.com, Abcde, Abcde)</span>
+                <span class="method-start">436231 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=SUCCESS method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">453595 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">signUpRegister(null, null, null, null, null, null)</span>
+                <span class="method-start">453595 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getReport([TestResult name=signUpRegister status=FAILURE method=TestNGClass.signUpRegister(java.lang.String, j...)</span>
+                <span class="method-start">470852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">470854 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

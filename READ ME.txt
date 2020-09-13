@@ -1,0 +1,11 @@
+Project Author :Moustafa Aly
+Date:13/9/2020
+The following code is used to test the registration process of the website phptravels  https://www.phptravels.net/register 
+using automation frame work with an Object oriented design.
+A page object model is constructed for the register and the login pages 
+The code uses a Data driven Test model. The data is retrieved from an excel file that contains all required test cases.
+The report is constructed using  customizd reporl model as an Extent report that includes screenshots for failures
+How to run the project:
+1.Run the TestNGClass as TestNG Test.
+2.The output report will be generated inside test-output  folder  inside the project file named as STMExtentReport.html.
+3.Excel file is also updated with the output result
